@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>결과</title>
+</head>
+<body>
+<h2>투표 결과</h2>
+
+<p>짜장면 : <span th:text="${result.jajang}"></span> 표</p>
+<p>짬뽕 : <span th:text="${result.jjamppong}"></span> 표</p>
+
+<a href="/vote">다시 투표하기</a>
+</body>
+</html>

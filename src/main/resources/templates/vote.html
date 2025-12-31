@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>투표</title>
+</head>
+<body>
+<h2>짜장면 vs 짬뽕</h2>
+
+<form method="post" action="/vote">
+  <label>
+    <input type="radio" name="type" value="JAJANG" required>
+    짜장면
+  </label><br>
+
+  <label>
+    <input type="radio" name="type" value="JJAMPPONG">
+    짬뽕
+  </label><br><br>
+
+  <button type="submit">투표하기</button>
+</form>
+</body>
+</html>
